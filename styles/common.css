@@ -1,0 +1,43 @@
+@import "adaptive.css"; 
+
+.grey-bg {
+    background-color: #373c3f;
+}
+.turquoise-bg {
+    background-color: #12abbf;
+}
+.pink-bg {
+    background-color: #bc3183;
+}
+.dark-purple-bg {
+    background-color: #27212c;
+}
+.purple-bg {
+    background-color: #5b0fa1;
+}
+.light-grey-bg {
+    background-color: #ebebeb;
+}
+.light-turquoise-font {
+    color: #a9d3dc;
+}
+.light-purple-font {
+    color: #9686a4;
+}
+.turquoise-font {
+    color: #088ca5;
+}
+.grey-font {
+    color: #767676;
+}
+body {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+}

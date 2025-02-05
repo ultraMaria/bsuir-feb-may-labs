@@ -1,0 +1,22 @@
+/* @media (min-width: 980px) {
+    .small-menu {
+        display: none;
+        background-color: blue;
+    }
+} */
+/* @media (max-width: 979px) {
+    .full-menu {
+        display: none;
+    }
+} */
+
+@media (max-width: 980px) {
+    .full-menu {
+        display: none;
+    };
+} 
+@media (min-device-width: 980px) {
+    .small-menu {
+        display: none;
+    };
+} 
