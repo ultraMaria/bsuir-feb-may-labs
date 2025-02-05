@@ -2,6 +2,10 @@
     .full-menu {
         display: none;
     }
+    .picture-section .arrow {
+        width: 100vw;
+        height: 70vw;
+    }
     .responsive-img {
         width: 100%;
         display: block;

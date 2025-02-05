@@ -55,3 +55,17 @@ body {
 .robin-hood-block {
     width: 100%;
 }
+.arrow {
+    display: flex;
+}
+.arrow img {
+    display: block;
+    margin: auto;
+}
+.robin-hood-block {
+    display: flex;
+}
+.robin-hood-block h2 {
+    display: block;
+    margin: auto;
+}
