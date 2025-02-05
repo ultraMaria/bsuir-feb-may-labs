@@ -14,6 +14,10 @@
         display: flex;
         flex-direction: row;
     }
+    .responsive-img {
+        width: 100%;
+        height: auto;
+    }
 } 
 
 @media screen and (min-device-width: 1024px) {
@@ -22,6 +26,9 @@
     }
     .robin-hood-section {
         height: 245px;
+    }
+    .robin-hood-section .arrow {
+        width: 235px;
     }
     .picture-section {
         height: 295px;
@@ -34,6 +41,9 @@
     }
     .robin-hood-section {
         height: 235px;
+    }
+    .robin-hood-section .arrow {
+        width: 220px;
     }
     .picture-section {
         height: 290px;
@@ -50,6 +60,9 @@
     .robin-hood-section {
         height: 150px;
     }
+    .robin-hood-section .arrow {
+        width: 145px;
+    }
 } 
 
 @media screen and (min-device-width: 320px) and (max-device-width: 639px) {
@@ -61,5 +74,8 @@
     }
     .robin-hood-section {
         height: 80px;
+    }
+    .robin-hood-section .arrow {
+        width: 75px;
     }
 } 
