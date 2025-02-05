@@ -2,6 +2,10 @@
     .full-menu {
         display: none;
     }
+    .responsive-img {
+        width: 100%;
+        display: block;
+    }
 } 
 @media screen and (min-device-width: 980px) {
     .small-menu {
