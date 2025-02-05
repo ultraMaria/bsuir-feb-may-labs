@@ -69,3 +69,7 @@ body {
     display: block;
     margin: auto;
 }
+.responsive-img {
+    width: 100%;
+    display: block;
+}

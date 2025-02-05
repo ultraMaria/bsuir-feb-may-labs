@@ -6,10 +6,6 @@
         width: 100vw;
         height: 70vw;
     }
-    .responsive-img {
-        width: 100%;
-        display: block;
-    }
 } 
 @media screen and (min-device-width: 980px) {
     .small-menu {
@@ -22,9 +18,8 @@
         display: flex;
         flex-direction: row;
     }
-    .responsive-img {
-        width: 100%;
-        height: auto;
+    .picture-section div {
+        width: 33.4vw;
     }
 } 
 
@@ -41,6 +36,9 @@
     .picture-section {
         height: 295px;
     }
+    .robin-hood-block h2 {
+        font-size: 40px;
+    }
 } 
 
 @media screen and (min-device-width: 980px) and (max-device-width: 1023px) {
@@ -55,6 +53,9 @@
     }
     .picture-section {
         height: 290px;
+    }
+    .robin-hood-block h2 {
+        font-size: 35px;
     }
 }
 
@@ -71,6 +72,9 @@
     .robin-hood-section .arrow {
         width: 145px;
     }
+    .robin-hood-block h2 {
+        font-size: 30px;
+    }
 } 
 
 @media screen and (min-device-width: 320px) and (max-device-width: 639px) {
@@ -85,5 +89,8 @@
     }
     .robin-hood-section .arrow {
         width: 75px;
+    }
+    .robin-hood-block h2 {
+        font-size: 21px;
     }
 } 
