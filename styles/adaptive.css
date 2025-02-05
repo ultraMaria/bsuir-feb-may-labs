@@ -6,6 +6,9 @@
         width: 100vw;
         height: 70vw;
     }
+    .text-block .right {
+        display: none;
+    }
 } 
 @media screen and (min-device-width: 980px) {
     .small-menu {
@@ -20,6 +23,16 @@
     }
     .picture-section div {
         width: 33.4vw;
+    }
+    .text-block {
+        display: flex;
+        justify-content: space-between;
+    }
+    .text-block div {
+        max-width: 47%;
+    }
+    .text-block .right {
+        font-weight: 700;
     }
 } 
 
@@ -36,7 +49,7 @@
     .picture-section {
         height: 295px;
     }
-    .robin-hood-block h2 {
+    h2 {
         font-size: 40px;
     }
 } 
@@ -54,7 +67,7 @@
     .picture-section {
         height: 290px;
     }
-    .robin-hood-block h2 {
+    h2 {
         font-size: 35px;
     }
 }
@@ -72,7 +85,7 @@
     .robin-hood-section .arrow {
         width: 145px;
     }
-    .robin-hood-block h2 {
+    h2 {
         font-size: 30px;
     }
 } 
@@ -90,7 +103,7 @@
     .robin-hood-section .arrow {
         width: 75px;
     }
-    .robin-hood-block h2 {
+    h2 {
         font-size: 21px;
     }
 } 

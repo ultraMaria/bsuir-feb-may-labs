@@ -73,3 +73,6 @@ body {
     width: 100%;
     display: block;
 }
+.info-section {
+    padding: 40px 70px 70px 90px;
+}
