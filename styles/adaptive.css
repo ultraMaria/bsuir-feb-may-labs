@@ -17,6 +17,13 @@
     .navbar {
         height: 95px;
     }
+    .navbar .full-menu{
+        display: flex;
+        margin: auto;
+        margin-left: 20px;
+        justify-content: space-evenly;
+        font-weight: 600;
+    }
     .picture-section {
         display: flex;
         flex-direction: row;
@@ -62,6 +69,10 @@
     .secondary-title {
         max-width: 600px;
     }
+    .navbar .full-menu{
+        width: 70%;
+        font-size: 20px;
+    }
 } 
 
 @media screen and (min-device-width: 980px) and (max-device-width: 1023px) {
@@ -89,6 +100,10 @@
     }
     .secondary-title {
         max-width: 550px;
+    }
+    .navbar .full-menu{
+        width: 65%;
+        font-size: 18px;
     }
 }
 
