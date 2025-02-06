@@ -42,12 +42,6 @@ body {
     display: flex;
     flex-direction: row;
 }
-.small-menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-}
 .robin-hood-section {
     display: flex;
     flex-direction: row;

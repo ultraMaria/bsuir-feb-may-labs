@@ -9,6 +9,18 @@
     .text-block .right {
         display: none;
     }
+    .small-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .small-menu .navigation-title {
+        display: block;
+        margin: auto;
+        margin-left: 20px;
+
+    }
 } 
 @media screen and (min-device-width: 980px) {
     .small-menu {
@@ -137,7 +149,7 @@
 
 @media screen and (min-device-width: 320px) and (max-device-width: 639px) {
     .navbar {
-        height: 35px;
+        height: 60px;
     }
     .title-banner {
         height: 375px;
