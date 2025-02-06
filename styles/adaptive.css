@@ -54,7 +54,6 @@
     }
     h1 {
         font-size: 55px;
-        font-weight: 550;
         margin: 10px 0;
     }
     .title-banner-container {
@@ -83,7 +82,6 @@
     }
     h1 {
         font-size: 50px;
-        font-weight: 550;
         margin: 10px 0;
     }
     .title-banner-container {
@@ -99,7 +97,7 @@
         height: 75px;
     }
     .title-banner {
-        height: 350px;
+        height: 450px;
     }
     .robin-hood-section {
         height: 150px;
@@ -110,6 +108,16 @@
     h2 {
         font-size: 30px;
     }
+    h1 {
+        font-size: 40px;
+        margin: 10px 0;
+    }
+    .title-banner-container {
+        margin: 100px 260px  0px 150px;
+    }
+    .secondary-title {
+        max-width: 450px;
+    }
 } 
 
 @media screen and (min-device-width: 320px) and (max-device-width: 639px) {
@@ -117,7 +125,7 @@
         height: 35px;
     }
     .title-banner {
-        height: 175px;
+        height: 375px;
     }
     .robin-hood-section {
         height: 80px;
@@ -126,6 +134,16 @@
         width: 75px;
     }
     h2 {
-        font-size: 21px;
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 35px;
+        margin: 10px 0;
+    }
+    .title-banner-container {
+        margin: 100px 260px  0px 150px;
+    }
+    .secondary-title {
+        max-width: 320px;
     }
 } 

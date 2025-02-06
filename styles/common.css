@@ -88,3 +88,6 @@ body {
     display: flex;
     flex-direction: column;
 }
+h1 {
+    font-weight: 550;
+}
