@@ -52,6 +52,17 @@
     h2 {
         font-size: 40px;
     }
+    h1 {
+        font-size: 55px;
+        font-weight: 550;
+        margin: 10px 0;
+    }
+    .title-banner-container {
+        margin: 150px 260px  0px 150px;
+    }
+    .secondary-title {
+        max-width: 600px;
+    }
 } 
 
 @media screen and (min-device-width: 980px) and (max-device-width: 1023px) {
@@ -69,6 +80,17 @@
     }
     h2 {
         font-size: 35px;
+    }
+    h1 {
+        font-size: 50px;
+        font-weight: 550;
+        margin: 10px 0;
+    }
+    .title-banner-container {
+        margin: 150px 260px  0px 150px;
+    }
+    .secondary-title {
+        max-width: 550px;
     }
 }
 
